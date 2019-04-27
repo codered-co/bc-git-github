@@ -7,4 +7,4 @@ hobby: Produzir música
 
 C foi a primeira linguagem que eu aprendi. 
 
-Gosto de ler clássicos brasileiros e fazer bullying com norte-americanos no Twitter.
+Gosto de literatura brasileira e fazer bullying com norte-americanos no Twitter.
