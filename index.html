@@ -5,17 +5,17 @@ title: Perkles - Blog
 
 <div class="article">
     {% for post in paginator.posts %}
+        <div class="post">
+            <h4><span class="label">Nome: </span>{{ post.nome }}</h4>
+            <h4><span class="label">Linguágem de programação favorita: </span>{{post.linguagem_programacao}}</h4>
+            <h4><span class="label">Hobby: </span>{{post.hobby}}</h4>
 
-        <h4>Nome: {{ post.nome }}</h4>
-        <h4>Linguágem de programação favorita: {{post.linguagem_programacao}}</h4>
-        <h4>Hobby: {{post.hobby}}</h4>
-
-        <div class="short_description">
-            <p>
-            <p>{{ post.content }}</p>
-            </p>
+            <div class="short_description">
+                <p>
+                <p>{{ post.content }}</p>
+                </p>
+            </div>
         </div>
-
         <hr>
      {% endfor %}
 
